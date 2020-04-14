@@ -1,0 +1,23 @@
+{
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bower": "^1.8.8",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.5",
+    "path": "^0.12.7",
+    "yarn": "^1.22.4",
+    "@bower_components/angular": "angular/bower-angular#1.7.9",
+    "@bower_components/angular-route": "angular/bower-angular-route#*",
+    "@bower_components/bootstrap": "twbs/bootstrap#*"
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
+  },
+  "scripts": {
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'public\\libs', 'junction') } catch (e) { }\""
+  }
+}

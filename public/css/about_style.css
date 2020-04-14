@@ -1,0 +1,17 @@
+
+
+#desc {
+	position:fixed;
+	top:0;
+	right:0;
+overflow:hidden;
+height:100%;
+width:100%;
+}
+
+#desc p { color:rgba(0,0,0,.2); }
+#desc b { 
+	color:rgba(0,0,0,1); 
+	font-size:20px;
+}
+
